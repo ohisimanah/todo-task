@@ -214,7 +214,177 @@ input::placeholder {
 }
 
 
+@media (max-width: 680px) {
+  .container {
+    Margin: 10px;
+    Height: auto;
+    Min-height: 95vh;
+    Padding-bottom: 20px;
+  }
+
+  Header {
+    Padding: 15px 20px;
+  }
+
+  /* Task counter: out of absolute positioning so it stops floating */
+  .qua {
+    Position: static;
+    Width: fit-content;
+    Height: 40px;
+    Margin: -59px 20px 40px auto;
+    Padding-inline: 15px;
+    Font-size: 14px;
+  }
+
+  /* Input area stacks vertically */
+  .first-section {
+    Display: flex;
+    Flex-direction: column;
+    Gap: 10px;
+    Width: auto;
+    Margin-inline: 15px;
+    Padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .f-input,
+  .d-input,
+  .btn1 {
+    Width: 100%;
+    Box-sizing: border-box;
+    Padding: 14px 12px;
+    Font-size: 16px;
+  }
+
+  /* Heading + Completed link */
+  .second-section {
+    Padding-inline: 20px;
+  }
+
+  /* Task list box fits the screen */
+  .third-section {
+    Width: auto;
+    Height: 380px;
+    Max-height: 380px;
+    Margin-inline: 15px;
+    Overflow-x: auto;
+  }
+
+  .task-container {
+    Padding-inline: 12px;
+    Gap: 8px;
+  }
+
+  .arr-input-con {
+    Margin-inline: 8px;
+    Gap: 6px;
+  }
+
+  .tt-input {
+    Width: auto;
+    Font-size: 15px;
+    White-space: normal;
+    Word-break: break-word;
+  }
+
+  .dd-input {
+    Font-size: 11px;
+    Padding: 5px;
+  }
+
+  .btn2 {
+    Padding: 6px;
+    Font-size: 11px;
+    Flex-shrink: 0;
+  }
+}
+
 @media (max-width: 360px) {
+  .container {
+    Margin: 10px;
+    Height: auto;
+    Min-height: 95vh;
+    Padding-bottom: 20px;
+  }
+
+  Header {
+    Padding: 15px 20px;
+  }
+
+  /* Task counter: out of absolute positioning so it stops floating */
+  .qua {
+    Position: static;
+    Width: fit-content;
+    Height: 40px;
+    Margin: -59px 20px 40px auto;
+    Padding-inline: 15px;
+    Font-size: 14px;
+  }
+
+  /* Input area stacks vertically */
+  .first-section {
+    Display: flex;
+    Flex-direction: column;
+    Gap: 10px;
+    Width: auto;
+    Margin-inline: 15px;
+    Padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .f-input,
+  .d-input,
+  .btn1 {
+    Width: 100%;
+    Box-sizing: border-box;
+    Padding: 14px 12px;
+    Font-size: 16px;
+  }
+
+  /* Heading + Completed link */
+  .second-section {
+    Padding-inline: 20px;
+  }
+
+  /* Task list box fits the screen */
+  .third-section {
+    Width: auto;
+    Height: 380px;
+    Max-height: 380px;
+    Margin-inline: 15px;
+    Overflow-x: auto;
+  }
+
+  .task-container {
+    Padding-inline: 12px;
+    Gap: 8px;
+  }
+
+  .arr-input-con {
+    Margin-inline: 8px;
+    Gap: 6px;
+  }
+
+  .tt-input {
+    Width: auto;
+    Font-size: 15px;
+    White-space: normal;
+    Word-break: break-word;
+  }
+
+  .dd-input {
+    Font-size: 11px;
+    Padding: 5px;
+  }
+
+  .btn2 {
+    Padding: 6px;
+    Font-size: 11px;
+    Flex-shrink: 0;
+  }
+}
+
+@media (max-width: 280px) {
   .container {
     Margin: 10px;
     Height: auto;
